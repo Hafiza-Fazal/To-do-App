@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0  0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%; /* Set to 100% of the container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    padding-right: 40px;
+}
+
+.a {
+    position: absolute; /* Position button absolutely */
+    right: 0; /* Align to the right */
+    top: 0; /* Align to the top */
+    height: 80%;
+    padding: 0 15px; /* Horizontal padding for the button */
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border-top-right-radius: 20px; /* Rounded corners */
+    border-bottom-right-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    width: 70px;
+}
+.input-container {
+    position: relative; /* Create a positioning context for the button */
+}
+audio:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+li button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+  
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
